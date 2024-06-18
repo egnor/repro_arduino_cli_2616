@@ -1,0 +1,26 @@
+{
+  "packages": [
+    {
+      "name": "egnor",
+      "maintainer": "Dan Egnor",
+      "websiteURL": "https://egnor.me/",
+      "email": "egnor@ofb.net",
+      "platforms": [
+        {
+          "name": "Repro case for arduino-cli bug 2616",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/arduino/arduino-cli/issues/2616"
+          },
+          "url": "https://raw.githubusercontent.com/egnor/repro_arduino_cli_2616/main/egnor-repro2616-1.0.0.zip",
+          "archiveFileName": "egnor-repro2616-1.0.0.zip",
+          "size": 258,
+          "checksum": "SHA-256:2cef8a9f43d0070385dd7b6a26952bd11d7a46b4f4e78650bf4aaa0ac967ae44",
+          "boards": [{"name": "Derived ESP32 Board"}]
+        }
+      ]
+    }
+  ]
+}
