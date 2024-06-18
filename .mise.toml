@@ -1,0 +1,9 @@
+[plugins]
+arduino-cli = "https://github.com/egnor/asdf-arduino-cli.git"
+
+[tools]
+arduino-cli = {version = "1.0.0"}
+
+[env]
+# ARDUINO_BOARD_MANAGER_ADDITIONAL_URLS = "https://espressif.github.io/arduino-esp32/package_esp32_index.json https://raw.githubusercontent.com/egnor/repro_arduino_cli_2616/main/package_egnor_repro2616_index.json"
+ARDUINO_DIRECTORIES_DATA = "{{config_root}}/arduino_data"
