@@ -14,7 +14,7 @@
           "help": {
             "online": "https://github.com/arduino/arduino-cli/issues/2616"
           },
-          "url": "https://raw.githubusercontent.com/egnor/repro_arduino_cli_2616/main/egnor-repro2616-1.0.1.zip",
+          "url": "https://github.com/egnor/repro_arduino_cli_2616/raw/main/egnor_repro2616-1.0.1.zip",
           "archiveFileName": "egnor-repro2616-1.0.1.zip",
           "size": 410,
           "checksum": "SHA-256:e554038746e2b4855ee3a4325a1aa53f159f2878c6483b5f4de1a1b6c0546cde",

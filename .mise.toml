@@ -5,5 +5,5 @@ arduino-cli = "https://github.com/egnor/asdf-arduino-cli.git"
 arduino-cli = {version = "1.0.0"}
 
 [env]
-ARDUINO_BOARD_MANAGER_ADDITIONAL_URLS = "https://raw.githubusercontent.com/egnor/repro_arduino_cli_2616/main/package_egnor_repro2616_index.json"
+ARDUINO_BOARD_MANAGER_ADDITIONAL_URLS = "https://github.com/egnor/repro_arduino_cli_2616/raw/main/package_egnor_repro2616_index.json"
 ARDUINO_DIRECTORIES_DATA = "{{config_root}}/arduino_data"
