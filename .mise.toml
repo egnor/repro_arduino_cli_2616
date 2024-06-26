@@ -3,6 +3,7 @@ arduino-cli = "https://github.com/egnor/asdf-arduino-cli.git"
 
 [tools]
 arduino-cli = {version = "1.0.0"}
+python = "3.11"
 
 [env]
 ARDUINO_BOARD_MANAGER_ADDITIONAL_URLS = "https://github.com/egnor/repro_arduino_cli_2616/raw/main/package_egnor_repro2616_index.json"
