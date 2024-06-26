@@ -2,6 +2,7 @@ derived_esp32.name=Derived ESP32 Board
 derived_esp32.build.core=esp32:esp32
 derived_esp32.build.defines=-DIS_EGNOR_DERIVED=1
 derived_esp32.build.use_core_platform_for_runtime_platform_path=true
+derived_esp32.build.variant=esp32:esp32
 
 derived_esp32.build.board=ESP32_DEV
 derived_esp32.build.boot=dio
@@ -26,7 +27,6 @@ derived_esp32.build.partitions=default
 derived_esp32.build.partitions=default
 derived_esp32.build.tarch=xtensa
 derived_esp32.build.target=esp32
-derived_esp32.build.variant=esp32
 derived_esp32.build.zigbee_libs=
 derived_esp32.build.zigbee_mode=
 derived_esp32.serial.disableDTR=true
@@ -37,6 +37,6 @@ derived_esp32.upload.flags=
 derived_esp32.upload.maximum_data_size=327680
 derived_esp32.upload.maximum_size=1310720
 derived_esp32.upload.speed=921600
-derived_esp32.upload.tool.default=esptool_py
-derived_esp32.upload.tool=esptool_py
-derived_esp32.upload.tool.network=esp_ota
+derived_esp32.upload.tool.default=esp32:esptool_py
+derived_esp32.upload.tool=esp32:esptool_py
+derived_esp32.upload.tool.network=esp32:esp_ota
